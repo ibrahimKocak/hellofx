@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="240.0" type="AnchorPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="profilBackground" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+      <VBox spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="İBRAHİM KOÇAK" textFill="WHITE" />
+         <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="ANKARA" textFill="WHITE" />
+      </VBox>
+   </AnchorPane>
+   <VBox alignment="TOP_CENTER" AnchorPane.bottomAnchor="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane>
+         <HBox alignment="CENTER" prefHeight="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <StackPane styleClass="buttons">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <Image url="@../../images/icon/mail.png" />
+               </ImageView>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </StackPane>
+            <StackPane styleClass="buttons">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <Image url="@../../images/icon/favorite.png" />
+               </ImageView>
+            </StackPane>
+            <StackPane styleClass="buttons">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <Image url="@../../images/icon/user.png" />
+               </ImageView>
+            </StackPane>
+            <StackPane styleClass="buttons">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <Image url="@../../images/icon/setting.png" />
+               </ImageView>
+            </StackPane>
+            <effect>
+               <DropShadow color="#00000033" />
+            </effect>
+         </HBox>
+      </AnchorPane>
+      <AnchorPane>
+         <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+            <Circle fx:id="circle" fill="#ffffff00" radius="80.0" stroke="BLACK" strokeType="INSIDE">
+               <effect>
+                  <DropShadow color="#00000034" />
+               </effect></Circle>
+         </StackPane>
+      </AnchorPane>
+   </VBox>
+</fx:root>

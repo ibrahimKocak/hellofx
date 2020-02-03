@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.shape.Circle?>
+
+<fx:root fx:id="messageOwnerPicture" fill="#2197ff" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="Circle" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <effect>
+      <DropShadow color="#00000066" />
+   </effect>
+</fx:root>

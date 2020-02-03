@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root fx:id="messageDetail" alignment="CENTER" type="VBox" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <Label fx:id="messageTime" text="??:??" textFill="#c3c3c3">
+      <font>
+         <Font size="10.0" />
+      </font>
+   </Label>
+   <ImageView fx:id="messageCheck" fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+      <effect>
+         <DropShadow color="#00000066" />
+      </effect>
+   </ImageView>
+</fx:root>

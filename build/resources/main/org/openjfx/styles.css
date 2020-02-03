@@ -1,0 +1,102 @@
+.fonBackground{
+    -fx-background-color: #ffffff;
+}
+
+
+.profilBackground{
+    -fx-background-image: url(images/image/imageback.jpg);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.topLine{
+    -fx-border-color: #888888;
+    -fx-border-width: 1 0 0 0;
+}
+.rightLine{
+    -fx-border-color: #888888;
+    -fx-border-width: 0 1 0 0;
+}
+.bottomLine{
+    -fx-border-color: #888888;
+    -fx-border-width: 0 0 1 0;
+}
+.leftLine{
+    -fx-border-color: #888888;
+    -fx-border-width: 0 0 0 1;
+}
+
+.buttons:hover{
+    -fx-background-color: #DDDDDD;
+}
+
+.messageSend{
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #888888;
+    -fx-border-width: 1 0 0 0;
+}
+
+.messageText{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #ACAEB0;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical .increment-button{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical .increment-button .increment-arrow{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical .decrement-button{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical .decrement-button .decrement-arrow{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical .thumb{
+    -fx-background-color: #888888;
+    -fx-background-insets: 0 5 0 5;
+}
+
+.count{
+    -fx-background-color: #40D080;
+    -fx-background-radius: 100;
+    -fx-text-fill: #ffffff;
+}
+
+.nonSelection{
+    -fx-border-color: #88888860;
+    -fx-border-width: 0 0 1 0;
+}
+
+.nonSelection:hover{
+    -fx-background-color: #f4f4f4;
+}
+
+.Selection{
+    -fx-background-color: #f8f8f8;
+    -fx-border-color: #2ecc71;
+    -fx-border-width: 0 0 1 5;
+}
+
+.CircleImage{
+
+}
